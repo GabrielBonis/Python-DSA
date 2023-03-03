@@ -1,0 +1,18 @@
+#PSEUDOCODIGO 1: CALCULADORA DE ÁREA DE UM PARALELOGRAMO
+#INICIE
+#EXIBA "BEM VINDO AO CALCULADOR DE ÁREA DE PARALELOGRAMO
+#PEÇA AO USUÁRIO PARA INSERIR O COMPRIMENTO DA BASE ARMAZENE O COMPRIMENTO DA BASE COMO UMA VARIÁVEL
+#PEÇA AO USUÁRIO PARA INSERIR A ALTURA ARMAZENE A ALTURA COMO UMA VARIÁVEL
+#CALCULE A ÁREA DO PARALELOGRAMO: ÁREA = BASE ALTURA ARMAZENE O RESULTADO COMO UMA VARIÁVEL
+#EXIBA O RESULTADO
+
+
+print("Bem vindo ao Calculador de Área de Paralelogramo")
+
+base = float(input('Insira o comprimento da base: '))
+
+altura = float(input('Insira a Altura: '))
+
+area = base * altura
+
+print('A área do paralelogramo é', area)
